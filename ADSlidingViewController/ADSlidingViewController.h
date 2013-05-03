@@ -294,7 +294,7 @@ typedef NS_OPTIONS(NSInteger, ADResetGesture) {
  * experiencing lag, try turning off shadows.
  */
 @property (nonatomic) BOOL showTopViewShadow;
-
+@property (nonatomic) BOOL shouldFadeAndScale;
 /**
  * @abstract The gesture which controls the panning of the main view.
  * @discussion Add this to whatever view you want the gesture to be enabled on.
